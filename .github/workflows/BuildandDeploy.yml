@@ -22,6 +22,6 @@ jobs:
       env:
         HUGO_VERSION: 0.69.1
         TARGET_REPO: uasdqa/uasdqa.github.io
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CNAME: www.uasdqa.me
         HUGO_ARGS: --debug
